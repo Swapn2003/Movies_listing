@@ -1,0 +1,126 @@
+.navigation{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    font-weight:bold;  
+    font-size: 24px;
+    /* color: black; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+.navigation input{
+    /* text-align: center; */
+    border: none;
+}
+.navigation .logo-name{
+    border-right: 2px solid rgb(158, 158, 158);
+    /* padding-right: 14.25vw; */
+    width: 19.4vw;
+    text-align: center;
+}
+.search{
+    display: flex;
+
+}
+.search img{
+    height:0.7em;
+    width:0.7em;
+    margin: 3px;
+    border-left: 2px solid rgb(158, 158, 158);
+    padding-left: 9px;
+
+}
+
+.content{
+    display: flex;
+}
+.content .left-pane{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid gray;
+    width: 20vw;
+    background-color: rgba(171, 169, 169,0.4);
+    z-index: -1;
+
+}
+.content .left-pane a{
+    position:sticky;
+    top: 2.5em;
+    left: 0;
+    text-decoration: none;
+    text-align: center;
+    margin: 1em;
+    color: black;
+    left: 0;
+}
+.content .left-pane :nth-child(2){
+    position:sticky;
+    top: 5.5em;
+
+}
+.content .left-pane :nth-child(3){
+    position:sticky;
+    top: 8.5em;
+
+}
+.content .left-pane :nth-child(4){
+    position:sticky;
+    top: 11.5em;
+
+}
+.content .left-pane :nth-child(5){
+    position:sticky;
+    top: 14.5em;
+
+}
+.content .left-pane :nth-child(6){
+    position:sticky;
+    top: 17.5em;
+
+}
+
+/* #movie-container{
+    background-color: rgb(172, 168, 163);
+} */
+
+/* Add CSS styles for the container element */
+#movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+    width: 80vw;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+}
+.add-button{
+    position: fixed;
+    bottom: 2em;
+    left: 8em;
+    font-weight: 12em;
+    color: white;
+    background-color: black;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border-radius: 6px;
+
+}
+.hide{
+    display: none;
+}
